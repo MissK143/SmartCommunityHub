@@ -22,12 +22,14 @@ This is a modular, AI-powered infrastructure hub for underserved communities. It
 - Produces two files for before/after analysis of agent effectiveness:
   - `simulated_wifi_usage_raw.csv`
   - `simulated_wifi_usage_balanced.csv`
-- Ready to evolve into a real-time load balancing agent for future SDG-aligned smart infrastructure
- 
-**AI Logic**: Rule-based Redistribution  
-**SDG Impact**:  
-- ⚙️ SDG 9 – Industry, Innovation, and Infrastructure  
-- 🏙️ SDG 11 – Sustainable Cities and Communities
+
+
+# 🧠 Community Data Logger Agent
+
+- Aggregates output from all agents (leak detection, energy forecast, Wi-Fi usage)
+- Produces a unified `hub_log.csv` for system-level analysis and dashboard integration
+- Adds timestamp, agent source, and value for each entry
+- Prepares your Smart Community Hub for centralized monitoring or real-time simulation
 
 
 ## 📂 Project Structure
