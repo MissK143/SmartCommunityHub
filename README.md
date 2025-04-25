@@ -44,15 +44,3 @@ To run the dashboard:
 
 ```bash
 streamlit run smart_hub_dashboard.py
-
-
-
-## 📂 Project Structure
-
-
-
-## 📦 How to Run Locally
-
-```bash
-pip install -r requirements.txt
-streamlit run agents/leak_detection/leak_detection_dashboard.py
