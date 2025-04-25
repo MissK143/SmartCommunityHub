@@ -33,3 +33,16 @@ Built using **Python + Streamlit**, this dashboard helps visualize AI-powered in
 ```bash
 git clone https://github.com/MissK143/SmartCommunityHub.git
 cd SmartCommunityHub
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run simulators in separate terminals:
+python leak_stream_simulator.py
+python energy_stream_simulator.py
+python wifi_stream_simulator.py
+python digital_literacy_stream_simulator.py
+
+# Run the dashboard
+streamlit run smart_hub_dashboard_live.py
+
