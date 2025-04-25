@@ -31,6 +31,21 @@ This is a modular, AI-powered infrastructure hub for underserved communities. It
 - Adds timestamp, agent source, and value for each entry
 - Prepares your Smart Community Hub for centralized monitoring or real-time simulation
 
+# 📊 Unified Dashboard
+
+A Streamlit-powered interface that brings together all community agents in one place:
+
+- 💧 Leak Detection: Visualizes abnormal water usage
+- 🔋 Energy Forecasting: Predicts high energy periods
+- 📶 Wi-Fi Load Balancer: Shows bandwidth distribution across access points
+- 🧠 System Log: Aggregates recent agent activity
+
+To run the dashboard:
+
+```bash
+streamlit run smart_hub_dashboard.py
+
+
 
 ## 📂 Project Structure
 
