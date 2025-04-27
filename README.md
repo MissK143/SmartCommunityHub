@@ -40,6 +40,28 @@ pip install -r requirements.txt
 # Run simulators in separate terminals:
 python leak_stream_simulator.py
 python energy_stream_simulator.py
+```
+## 📚 About This Project Setup
+
+This project was originally designed with **modular architecture**, separating:
+- Real-time simulators (data generators)
+- Dashboard (data visualization)
+
+This is the **professional** way to build scalable edge-AI systems.
+
+---
+
+## ☁️ Special Note for Deployment
+
+Because platforms like **Streamlit Cloud** allow only a single script to run, a special deployment version of the dashboard was created:
+- Simulators are integrated **directly into the dashboard**
+- No external terminal processes required
+
+✅ If working **locally**, you can run agents separately for full modularity.  
+✅ If **deploying**, use the integrated version for smooth cloud hosting.
+
+---
+
 python wifi_stream_simulator.py
 python digital_literacy_stream_simulator.py
 
