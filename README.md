@@ -40,7 +40,13 @@ pip install -r requirements.txt
 # Run simulators in separate terminals:
 python leak_stream_simulator.py
 python energy_stream_simulator.py
+python wifi_stream_simulator.py
+python digital_literacy_stream_simulator.py
+
+# Run the dashboard
+streamlit run smart_hub_dashboard_live.py
 ```
+
 ## 📚 About This Project Setup
 
 This project was originally designed with **modular architecture**, separating:
@@ -61,10 +67,3 @@ Because platforms like **Streamlit Cloud** allow only a single script to run, a 
 ✅ If **deploying**, use the integrated version for smooth cloud hosting.
 
 ---
-
-python wifi_stream_simulator.py
-python digital_literacy_stream_simulator.py
-
-# Run the dashboard
-streamlit run smart_hub_dashboard_live.py
-
