@@ -1,5 +1,13 @@
 # 💡 Smart Community Hub – Live AI Dashboard
+## 📋 Table of Contents
+- [Project Overview](#-smart-community-hub--live-ai-dashboard)
+- [Agents Overview](#-agents-overview)
+- [How to Run Locally](#-how-to-run)
+- [Deployment Note for Streamlit Cloud](#-special-note-for-deployment)
+- [Running Locally vs Cloud Deployment](#-running-locally-vs-cloud-deployment)
+- [Manual Simulation Instructions](#-manual-control-instructions)
 
+  
 A real-time, modular edge-AI dashboard built to simulate and monitor smart community infrastructure in underserved areas.
 
 This project showcases live data agents for:
@@ -63,7 +71,7 @@ Because platforms like **Streamlit Cloud** allow only a single script to run, a 
 - Simulators are integrated **directly into the dashboard**
 - No external terminal processes required
 
-✅ If working **locally**, you can run agents separately for full modularity.  
+✅ For local development, simulators run separately to preserve **modular architecture**.  
 ✅ If **deploying**, use the integrated version for smooth cloud hosting.
 
 ---
