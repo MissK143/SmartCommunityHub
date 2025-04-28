@@ -126,4 +126,9 @@ with tab5:
     st.info("Log tab will be upgraded for real-time integration soon.")
 
 # Auto-refresh the page every 10 seconds
-st.experimental_rerun()
+st.sidebar.title("🔄 Manual Controls")
+
+if st.sidebar.button("Simulate New Data"):
+    simulate_data()
+    st.experimental_rerun()
+
