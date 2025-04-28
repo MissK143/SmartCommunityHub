@@ -67,3 +67,23 @@ Because platforms like **Streamlit Cloud** allow only a single script to run, a 
 ✅ If **deploying**, use the integrated version for smooth cloud hosting.
 
 ---
+
+## 🖥️ Running Locally vs Cloud Deployment
+
+| File Name | Purpose |
+|-----------|---------|
+| smart_hub_dashboard_local.py | Local development with multiple simulators running manually |
+| smart_hub_dashboard_live.py | Streamlit Cloud version with integrated manual simulation button |
+
+When deploying to Streamlit Cloud, use **smart_hub_dashboard_live.py**.
+When working locally with separate simulators, use **smart_hub_dashboard_local.py**.
+
+## 🔄 Manual Control Instructions
+
+This Smart Hub dashboard uses manual simulation for real-time data.
+
+- To simulate new water, energy, Wi-Fi, and literacy data, click the **"Simulate New Data"** button in the sidebar.
+- This prevents data loss and allows better control over real-time behavior.
+- The dashboard does not auto-refresh by itself — user triggers updates manually.
+
+This design improves performance and stability, especially when deployed on Streamlit Cloud.
