@@ -130,5 +130,5 @@ st.sidebar.title("🔄 Manual Controls")
 
 if st.sidebar.button("Simulate New Data"):
     simulate_data()
-    st.experimental_rerun()
+
 
