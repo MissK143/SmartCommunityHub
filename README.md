@@ -44,7 +44,7 @@ python wifi_stream_simulator.py
 python digital_literacy_stream_simulator.py
 
 # Run the dashboard
-streamlit run smart_hub_dashboard_live.py
+streamlit run smart_hub_dashboard_local.py
 ```
 
 ## 📚 About This Project Setup
