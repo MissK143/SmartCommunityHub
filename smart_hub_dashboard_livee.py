@@ -126,4 +126,4 @@ with tab5:
     st.info("Log tab will be upgraded for real-time integration soon.")
 
 # Auto-refresh the page every 10 seconds
-st.markdown("""<meta http-equiv="refresh" content="10">""", unsafe_allow_html=True)
+st.experimental_rerun()
