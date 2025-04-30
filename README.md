@@ -16,10 +16,15 @@ This project showcases live data agents for:
 - 📶 Wi-Fi load balancing
 - 📘 Digital literacy behavior tracking
 
-Built using **Python + Streamlit**, this dashboard helps visualize AI-powered insights in support of:
-- 🌍 **SDG 9** – Industry, Innovation, and Infrastructure
-- 🏙️ **SDG 11** – Sustainable Cities and Communities
-- 🎓 **SDG 4** – Quality Education (via Digital Literacy Agent)
+Built using **Python + Streamlit**, this dashboard helps visualize AI-powered insights in supporting UN Sustainable Development Goals:
+
+- **Goal 4**: Quality Education — through adaptive digital literacy agents
+- **Goal 6**: Clean Water and Sanitation — via water leak detection and usage optimization
+- **Goal 7**: Affordable and Clean Energy — with predictive modeling and local demand balancing
+- **Goal 9**: Industry, Innovation, and Infrastructure — through smart, deployable systems
+- **Goal 10**: Reduced Inequality — by expanding equitable access to intelligent infrastructure
+- **Goal 11**: Sustainable Cities and Communities — improving resilience in service delivery
+- **Goal 17**: Partnerships to Achieve the Goal—enabling cooperation with municipalities, tech partners, and communities
 
 ---
 
