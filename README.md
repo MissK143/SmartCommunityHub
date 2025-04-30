@@ -1,4 +1,4 @@
-# 💡 Smart Community Hub – Live AI Dashboard
+# 💡 Smart Community Hub (CivicNexus)  – Live AI Dashboard
 ## 📋 Table of Contents
 - [Project Overview](#-smart-community-hub--live-ai-dashboard)
 - [Agents Overview](#-agents-overview)
